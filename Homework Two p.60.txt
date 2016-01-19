@@ -1,0 +1,92 @@
+John Voorhess
+ITC110
+Homework 2 - p.60 all questions
+
+
+1.What are the two values of the Boolean data type? How do you write them? 
+
+The Two values of the boolean data type are True and False.  They are always written with a capital T and a capital F. 
+2.What are the three Boolean operators? 
+
+and
+or
+not 
+3.Write out the truth tables of each Boolean operator (that is, every possible combination of Boolean values for the operator and what they evaluate to). 
+
+True and True is True
+True and False is False
+False and True is False
+False and False is True
+True or True is True
+True or False is True
+False or True is True
+False or False is False
+not True is False
+not False is True 
+4.What do the following expressions evaluate to? 
+ (5 > 4) and (3 == 5) is False
+not (5 > 4) is False
+(5 > 4) or (3 == 5) is True
+not ((5 > 4) or (3 == 5)) is False
+(True and True) and (True == False) is False
+(not False) or (not True) is True
+	
+5.What are the six comparison operators? 
+
+==
+<
+>
+!=
+<=
+>= 
+6.What is the difference between the equal to operator and the assignment operator? 
+
+Assignment operator, “=”, assigns a value to a variable.  Equal to operator, “==”, compares two values. 
+7.Explain what a condition is and where you would use one. 
+
+A condition evaluates to True or False and is used in flow control. 
+8.Identify the three blocks in this code:  
+spam = 0 BLOCK 1
+if spam == 10: BLOCK 2
+	print('eggs')
+	if spam > 5:
+		print('bacon')
+	else:
+		print('ham')
+	print('spam')
+print('spam') BLOCK 3 
+		 
+9.Write code that prints Hello if 1 is stored in spam, prints Howdy if 2 is stored in spam, and prints Greetings! if anything else is stored in spam. 
+
+
+if spam == 1:
+	print(‘Hello’)
+elif spam == 2:
+	print(‘Howdy’)
+else:
+	print(‘Greetings!’) 
+10.What can you press if your program is stuck in an infinite loop? 
+
+CTRL + C 
+11.What is the difference between break and continue? 
+
+If an execution reaches a break statement, it will immediately exit a while loop’s clause. When it reaches a continue statement, it will immediately jump back to the start of the loop and reevaluate. 
+12.What is the difference between range(10), range(0, 10), and 
+
+range(0, 10, 1) in a for loop? 
+range(10) is for 0 to 9
+range(0, 10) tells the loop to start at 10
+range(0, 10, 1) does the same as the previous but tells it to increment by one. 
+13.Write a short program that prints the numbers 1 to 10 using a for loop. Then write an equivalent program that prints the numbers 1 to 10 using a while loop. 
+
+for i in range(1, 11):
+	print(i)
+
+i = 1
+while i <= 10:
+	print(i)
+	i = i + 1 
+14.If you had a function named bacon() inside a module named spam, how would you call it after importing spam? 
+
+spam.bacon()
+ Extra credit: Look up the round() and abs() functions on the Internet, and find out what they do. Experiment with them in the interactive shell.  
