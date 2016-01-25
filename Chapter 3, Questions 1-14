@@ -1,0 +1,45 @@
+**Chapter 3, Questions 1- 14**
+--------------------------
+
+**1. Why are functions advantageous to have in your programs?**
+Functions serve to help avoid repeating code.
+
+**2. When does the code in a function execute: when the function is defined or when the function is called?**
+The code in a function executes when the function is called, after it is defined.
+
+**3. What statement creates a function?**
+`def` creates a function.
+
+**4. What is the difference between a function and a function call?**
+A function is the `def` statement that defines it and all of the code therein. A function call moves the program to the block of code that defines the function and executes it.
+
+**5. How many global scopes are there in a Python program? How many local scopes?**
+There is one global scope in a Python program and an unlimited number of local scopes.
+
+**6. What happens to variables in a local scope when the function call returns?**
+The variables are not saved and they are destroyed when the function call returns.
+
+**7. What is a return value? Can a return value be part of an expression?**
+A return value is the result of the evaluation of a function.  Yes.
+
+**8. If a function does not have a return statement, what is the return value of a call to that function?**
+The return value of a call to a function without a return statement is None.
+
+**9. How can you force a variable in a function to refer to the global variable?**
+You can define the global variable in the function with a`global` statement.
+
+**10. What is the data type of None?**
+NoneType
+
+**11. What does the `import areallyourpetsnamederic` statement do?**
+It imports a module called `areallyourpetsnamederic`.
+
+**12. If you had a function named `bacon()` in a module named `spam,` how would you call it after importing spam?**
+
+    spam.bacon()
+
+**13. How can you prevent a program from crashing when it gets an error?**
+You can use a `try / except` clause for problematic code.
+
+**14. What goes in the try clause? What goes in the except clause?**
+Code that may cause an error goes in the `try` clause.  Code that executes when an error happens goes in the `except` clause.
